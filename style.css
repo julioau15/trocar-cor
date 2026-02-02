@@ -1,3 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-bg: tomato;
+}
+
 body{
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.body-color{
+    background-color: var(--cor-bg);
+}
+
+#txt-input{
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 5px;
 }
